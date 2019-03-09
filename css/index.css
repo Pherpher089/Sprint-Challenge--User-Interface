@@ -71,6 +71,21 @@ p {
     margin: 0 auto;
 }
 
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navLinks a{
+    margin-left: 50px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
