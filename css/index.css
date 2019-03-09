@@ -271,6 +271,7 @@ input[type=text], select, textarea {
   
   /* Add a background color and some padding around the form */
   .form {
+    margin-top: 25px;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -283,4 +284,14 @@ input[type=text], select, textarea {
 
   address{
       margin: 25px;
+      margin-left: 300px;
+      animation-name: colorChange;
+      animation-duration: 2s;
+      animation-iteration-count: infinite
+  }
+
+  @keyframes colorChange{
+      0%{color: black}
+      50%{color: gold}
+      100%{color: black}
   }
