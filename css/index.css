@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+.navigation {
+	width: auto;
+	height: 75px;
+	margin: 0 auto;
+	padding:0px 10px 0px 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navLinks a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,6 +124,7 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -111,6 +135,57 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box1
+{
+    background: teal;
+}
+
+.middle-content .boxes .box2
+{
+    background: gold;
+}
+
+.middle-content .boxes .box3
+{
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4
+{
+    background: coral;
+}
+
+.middle-content .boxes .box5
+{
+    background: crimson;
+}
+
+.middle-content .boxes .box6
+{
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7
+{
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8
+{
+    background: hotpink;
+}
+
+.middle-content .boxes .box9
+{
+    background: indigo;
+}
+
+.middle-content .boxes .box10
+{
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +219,79 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.middleContent button{
+
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid grey; 
+    border-radius: 6px; 
+}
+
+.box{
+    width: 350px;
+    height: 375px;
+    display: inline-block;
+
+    margin: 10px 20px 10px 20px;
+}
+
+.letsWorkTogether{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .form {
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .image{
+      margin-left: 25px;
+      margin-bottom: 30px;
+  }
+
+  address{
+      margin: 25px;
+      margin-left: 300px;
+      animation-name: colorChange;
+      animation-duration: 2s;
+      animation-iteration-count: infinite
+  }
+
+  @keyframes colorChange{
+      0%{color: black}
+      50%{color: gold}
+      100%{color: black}
+  }
